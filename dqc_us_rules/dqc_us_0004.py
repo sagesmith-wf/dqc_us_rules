@@ -30,6 +30,7 @@ def assets_eq_liability_equity(val):
             modelObject=[fact_assets, fact_liabilities],
             ruleVersion=_RULE_VERSION
         )
+        
 
 
 def _assets_eq_liability_equity(model_xbrl):
